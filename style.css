@@ -1,0 +1,218 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  background-color: #c4e0f9;
+}
+
+#france-logo {
+  width: 100px;
+  height: 75px;
+}
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#main-menu > nav > ul > li > a {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #7cc6fe;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+#main-menu > nav > ul > li {
+  display: inline-block;
+  /* margin-left: 40px; */
+  background-color: #7cc6fe;
+}
+
+#main-menu > nav > ul > li > a:hover {
+  border: 1px solid #8093f1;
+  background-color: #8093f1;
+}
+
+#main-menu ul {
+  list-style-type: none;
+  text-align: left;
+  /* margin-top: 37px; */
+  margin: 0;
+  padding: 0;
+}
+
+.fr-team {
+  text-align: center;
+  margin: 20px;
+}
+
+#france-team {
+  width: 960px;
+  height: 640px;
+  border: 1px solid #000;
+}
+
+.fh1 {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fparagraph1 {
+  text-align: justify;
+  margin: 15px;
+}
+
+.fh2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.fparagraph2 {
+  text-align: justify;
+  margin: 15px;
+}
+
+#france-team1 {
+  width: 1150px;
+  height: 640px;
+  border: 1px solid #000;
+}
+
+.last-win-h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.last-win-paragraph {
+  text-align: justify;
+  margin: 15px;
+}
+
+.commentp1 {
+  text-align: justify;
+  margin: 15px;
+}
+
+.spanc1,
+.newspanc1 {
+  text-align: justify;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.spanc2 {
+  margin-left: 250px;
+}
+
+.benzema-winner {
+  width: 600px;
+  height: 350px;
+  margin: 10px;
+}
+
+.form-message {
+  width: 500px;
+  height: 200px;
+  margin: 15px;
+}
+
+.btn {
+  margin: 15px;
+}
+
+.france-flag1 {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+  animation-name: france;
+  animation-duration: 4s;
+  position: relative;
+  left: 875px;
+  margin-top: 50px;
+  animation-iteration-count: 2;
+  animation-delay: 3s;
+}
+
+.france-flag2 {
+  width: 50px;
+  height: 100px;
+  background-color: white;
+  animation-name: france;
+  animation-duration: 4s;
+  position: relative;
+  left: 925px;
+  bottom: 100px;
+  animation-iteration-count: 3;
+  animation-delay: 3s;
+}
+
+.france-flag3 {
+  width: 50px;
+  height: 100px;
+  background-color: red;
+  animation-name: france;
+  animation-duration: 4s;
+  position: relative;
+  left: 975px;
+  bottom: 200px;
+  margin-bottom: -165px;
+  animation-iteration-count: 4;
+  animation-delay: 3s;
+}
+
+.france-text1 {
+  position: relative;
+  left: 625px;
+  animation-name: fff-text;
+  animation-duration: 4s;
+  font-size: 25;
+  animation-iteration-count: 4;
+  animation-delay: 3s;
+  color: #000;
+}
+
+@keyframes france {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes fff-text {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    color: red;
+  }
+}
+
+.newComment1 {
+  text-align: justify;
+  margin: 15px;
+}
+
+.messageTextarea {
+  width: 500px;
+  height: 200px;
+  margin: 15px;
+}
+
+.sendMessage {
+  margin: 15px;
+}

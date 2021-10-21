@@ -1,0 +1,50 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.end {
+  align-items: flex-end;
+}
+
+.row.between {
+  justify-content: space-between;
+}
+
+.col {
+  margin: 1rem;
+  min-width: 160px;
+}
+
+.col.grow {
+  flex-grow: 2;
+}
+
+footer nav h5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+footer nav ul {
+  padding: 0;
+}
+
+footer nav li {
+  list-style: none;
+  padding: 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.footer_web {
+  background-color: #8093f1;
+  color: white;
+}
+
+.a-class {
+  text-decoration: none;
+  color: #000;
+}
